@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^lamptrade.ru [OR]
+  RewriteCond %{HTTP_HOST} ^www.lamptrade.ru
+  RewriteRule (.*)$ http://lampstrade.ru/$1 [R=301,L]
+</IfModule>
