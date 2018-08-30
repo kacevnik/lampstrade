@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 function send_first($array, $utm)
 {
-    $to = 'sale@lampstrade.ru';
+    $to = 'kacevnik@yandex.ru';
     $headers = 'From: Лампы<idntity@lampsTrade.com>' . "\r\n";
     $headers .= 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=utf-8';
@@ -158,7 +158,7 @@ function send_first($array, $utm)
 
 function send_second($array, $utm)
 {
-    $to = 'sale@lampstrade.ru';
+    $to = 'kacevnik@yandex.ru';
     $headers = 'From: Лампы<idntity@lampsTrade.com>' . "\r\n";
     $headers .= 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=utf-8';
