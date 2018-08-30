@@ -624,6 +624,7 @@ require_once ('storege/utm_source.php');
                 </div>
             </div>
         </div>
+        <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
         <div id="map" class="contacts__map"></div>
     </section>
 
